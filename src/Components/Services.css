@@ -1,0 +1,74 @@
+.services_title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.services_title::after{
+    content: "";
+    display: inline-block;
+    border-bottom: 3px solid orange;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+
+
+}
+.services{
+    background-color: orange;
+    z-index: -2;
+    padding-block: 15px;
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+    
+}
+.box{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.box button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: nome;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.box h4{
+    font-family: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.box::before{
+    content: "";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(152, 118, 56);
+    z-index: -1;
+    
+}
+.services_logo{
+    color: white;
+    z-index: 999;
+    font-size: 25px;
+}

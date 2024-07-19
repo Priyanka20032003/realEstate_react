@@ -1,0 +1,51 @@
+.client_cards{
+    display: flex;
+    gap: 70px;
+}
+.client_image {
+    width: 80px;
+    height: 80px;
+
+}
+.client_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+   
+}
+.client_card_top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.client_card h4{
+    font-weight: bold;
+
+}
+.client_card_info{
+    margin-left: 20px;
+
+}
+.clients_title{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.clients_title::after{
+    content: "";
+    display: inline-block;
+    border-bottom: 3px solid orange;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+
+
+}
+.clients{
+    padding-block: 30px;
+}

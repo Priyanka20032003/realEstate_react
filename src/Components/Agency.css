@@ -1,0 +1,55 @@
+.best{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.agency{
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+    position: relative;
+    margin-bottom:40px ;
+
+}
+.agency_section{
+    margin-bottom:40px ;
+
+}
+.agency::after{
+    content: "";
+    display: inline-block;
+    border-bottom: 3px solid black;
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+
+
+}
+.agency_para{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    text-align: center;
+}
+.agency_button{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.agency_button button{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    padding-inline:20px ;
+    padding-block: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+}

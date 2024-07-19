@@ -1,0 +1,25 @@
+.bottom_title .logo{
+    color: orange;
+    margin-right: 5px;
+    font-size: 35px;
+}
+.bottom_title h4 span{
+    font-weight: bold;
+
+}
+.bottom_title h4{
+    font-weight: lighter;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.bottom_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+.bottom{
+    background-color: whitesmoke;
+    border-top:1px solid;
+}
