@@ -72,3 +72,30 @@
     z-index: 999;
     font-size: 25px;
 }
+@media screen and (max-width: 576px)  {
+    .boxes {
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+      }
+      .box {
+        width: 100%;
+        text-align: center;
+      }
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+    .boxes {
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+      }
+    .box {
+        width: 40%;
+        text-align: center;
+      }
+      .box p{
+        text-align: center;
+      }
+}

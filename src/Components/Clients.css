@@ -49,3 +49,10 @@
 .clients{
     padding-block: 30px;
 }
+@media  screen and (max-width:576px){
+    .client_cards{
+        flex-wrap: wrap;
+        text-align: justify;
+    }
+
+}

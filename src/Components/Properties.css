@@ -46,7 +46,7 @@
 
 
 }
-properties{
+.properties{
  padding-block: 20px;
 }
 .card::before{
@@ -60,10 +60,48 @@ properties{
     background-color: orange;
     width: 110px;
     height: 40px;
-   
     position: absolute;
     top: 5%;
     left: 89%;
     transform: translate(-50%,-50%);
     
+}
+@media screen and (max-width: 576px)  {
+    .card{
+        width: 100%;
+        position: relative;
+     }
+     
+      .card_image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+    
+      .card::before {
+        position: absolute;
+        top: 22px;
+        left: 86%;
+        transform: translate(-50%, -50%);
+      }
+
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+    .card{
+        width: 40%;
+        position: relative;
+     }
+     
+      .card_image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    
+      .card::before {
+        position: absolute;
+        top: 22px;
+        left: 71%;
+        transform: translate(-50%, -50%);
+      }
 }
