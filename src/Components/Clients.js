@@ -1,5 +1,7 @@
 import React from "react";
 import "./Clients.css";
+import client1 from '../images/client1.jpg';
+import client2 from '../images/client2.jpg'
 const Clients = () => {
   return (
     <div className="container clients">
@@ -8,7 +10,7 @@ const Clients = () => {
         <div className="client_card">
           <div className="client_card_top">
             <div className="client_image">
-              <img src="https://media.istockphoto.com/id/1016761216/photo/portrait-concept.jpg?s=612x612&w=0&k=20&c=JsGhLiCeBZs7NeUY_3wjDlLfVkgDJcD9UCXeWobe7Ak=" />
+              <img src={client1} />
             </div>
             <div className="client_card_info">
               <h4>Your Name</h4>
@@ -25,7 +27,7 @@ const Clients = () => {
         <div className="client_card">
           <div className="client_card_top">
             <div className="client_image">
-              <img src="https://www.shutterstock.com/image-photo/headshot-close-portrait-indian-latin-260nw-2343004301.jpg" />
+              <img src={client2} />
             </div>
             <div className="client_card_info">
               <h4>Your Name</h4>

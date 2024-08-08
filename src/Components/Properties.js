@@ -1,5 +1,9 @@
 import React from "react";
 import "./Properties.css";
+import house2 from '../images/house2.jpg'
+import house3 from '../images/house3.jpg'
+import house4 from '../images/house4.jpg'
+import house5 from '../images/house5.jpg'
 const Properties = () => {
   return (
     <div className="container properties">
@@ -7,7 +11,7 @@ const Properties = () => {
       <div className="cards">
         <div className="card">
           <div className="card_image">
-            <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            <img src={house2} />
           </div>
 
           <h4>Modern Home</h4>
@@ -20,7 +24,7 @@ const Properties = () => {
         </div>
         <div className="card">
           <div className="card_image">
-            <img src="https://images.surferseo.art/fdb08e2e-5d39-402c-ad0c-8a3293301d9e.png" />
+            <img src={house3} />
           </div>
 
           <h4>Modern Home</h4>
@@ -33,7 +37,7 @@ const Properties = () => {
         </div>
         <div className="card">
           <div className="card_image">
-            <img src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/wp-content/uploads/2021/08/download-7.jpg" />
+            <img src={house4} />
           </div>
 
           <h4>Modern Home</h4>
@@ -46,7 +50,7 @@ const Properties = () => {
         </div>
         <div className="card">
           <div className="card_image">
-            <img src="https://i.pinimg.com/564x/fe/29/8a/fe298a70a49d93f50c62ae40c5ecce3a.jpg" />
+            <img src={house5} />
           </div>
 
           <h4>Modern Home</h4>
