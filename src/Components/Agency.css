@@ -55,8 +55,9 @@
 }
 @media screen and (max-width: 576px)  {
     .agency_para{
-        line-height: 25px;
+        line-height: 28px;
         text-align: justify;
+        width: 100%;
     }
 
 }

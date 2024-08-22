@@ -33,7 +33,10 @@
 }
 @media screen and (max-width:576px){
     .para{
-        width: 80%;
+        width: 90%;
         text-align: justify;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
+
 }

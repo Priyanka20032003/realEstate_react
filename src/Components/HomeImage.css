@@ -26,8 +26,9 @@
 }
 @media screen and (max-width: 576px)  {
     .home_image::after{
-        font-size: 17px;
+        font-size: 15px;
         height: 30px;
+        
         
     }
 }

@@ -81,7 +81,7 @@
       .card::before {
         position: absolute;
         top: 22px;
-        left: 86%;
+        left: 81%;
         transform: translate(-50%, -50%);
       }
 

@@ -79,3 +79,8 @@ nav ul li{
     align-items: center;
     justify-content: space-between;
 }
+@media screen and (max-width:396px){
+    .header_right{
+        display: none;
+    }
+}
