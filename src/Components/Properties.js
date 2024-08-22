@@ -20,7 +20,7 @@ const Properties = () => {
             industry.It has survived not only five centuries, but also the leap
             into electronic typesetting, remaining essentially unchanged.
           </p>
-          <p>Read More</p>
+          <p className="read">Read More</p>
         </div>
         <div className="card">
           <div className="card_image">
@@ -46,7 +46,7 @@ const Properties = () => {
             industry.It has survived not only five centuries, but also the leap
             into electronic typesetting, remaining essentially unchanged.
           </p>
-          <p>Read More</p>
+          <p className="read">Read More</p>
         </div>
         <div className="card">
           <div className="card_image">
@@ -59,7 +59,7 @@ const Properties = () => {
             industry.It has survived not only five centuries, but also the leap
             into electronic typesetting, remaining essentially unchanged.
           </p>
-          <p>Read More</p>
+          <p className="read">Read More</p>
         </div>
       </div>
     </div>
